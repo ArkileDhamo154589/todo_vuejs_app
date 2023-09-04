@@ -32,8 +32,11 @@ onMounted(() =>{
   <h3> Create A todo</h3>
 
   <form @submit.prevent="addTodo"></form>
+    <h4> What's ono your todo list</h4>
+    <input type="text" placeholder="Create something special"
+    v-model="input_content"/>
 
-
+    {{ input_content }}
 </section>
 
 </main>
