@@ -35,8 +35,21 @@ onMounted(() =>{
     <h4> What's ono your todo list</h4>
     <input type="text" placeholder="Create something special"
     v-model="input_content"/>
-
-    {{ input_content }}
+    <h4> Pick a category</h4>
+    <div class="options">
+      <label>
+        <input type="radio" name="category"  value="business" v-model="input_category"/>
+        <span class="bubble bussines"></span>
+        <div> Work </div>
+      </label>
+      <label>
+        <input type="radio" name="category"  value="personal" v-model="input_personal"/>
+        <span class="bubble personal"></span>
+        <div>
+          Personal
+        </div>
+      </label>
+    </div>
 </section>
 
 </main>
