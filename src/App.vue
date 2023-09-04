@@ -31,7 +31,7 @@ onMounted(() =>{
 <section class="create-todo">
   <h3> Create A todo</h3>
 
-  <form @submit.prevent="addTodo"></form>
+  <form @submit.prevent="addTodo">
     <h4> What's ono your todo list</h4>
     <input type="text" placeholder="Create something special"
     v-model="input_content"/>
@@ -45,11 +45,10 @@ onMounted(() =>{
       <label>
         <input type="radio" name="category"  value="personal" v-model="input_personal"/>
         <span class="bubble personal"></span>
-        <div>
-          Personal
-        </div>
+        <div>Personal</div>
       </label>
     </div>
+  </form>
 </section>
 
 </main>
