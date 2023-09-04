@@ -1,7 +1,28 @@
-# Vue 3 simple to do app
+#Vue 3 To-Do App
+This is a simple Vue 3 project that allows users to manage their to-do lists without the need for a database. Users can add their names (which will later be integrated with user login functionality). Additionally, users can select categories, such as "Work" or "Home," to categorize their to-dos. The app also provides the ability to mark to-dos as complete and delete them.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+#Features
+User Name: Users can enter their names when using the app. In future updates, this will be integrated with user authentication.
 
-## Recommended IDE Setup
+Category Selection: Users can categorize their to-dos as either "Work" or "Home" (or other custom categories in future updates).
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To-Do Management: Users can create, edit, complete, and delete to-dos.
+
+#Usage
+Clone the repository: https://github.com/ArkileDhamo154589/todo_vuejs_app
+
+bash
+git clone [https://github.com/your-username/vue3-todo-app.git](https://github.com/ArkileDhamo154589/todo_vuejs_app)
+Navigate to the project directory: cd vue3-todo-app
+Install the required dependencies: npm install
+Run the development server:
+code npm run serve.
+
+#Future Enhancements
+In future updates, the following features will be added to enhance the app's functionality:
+
+Custom Categories: Users will have the ability to create and manage their own categories for better organization.
+
+Deadline Setting: Users will be able to set deadlines for their to-dos to prioritize tasks effectively.
+
+Feel free to contribute to this project or provide feedback to 
